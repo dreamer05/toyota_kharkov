@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	min-width: 960px;
+	max-width: 1680px;
+}
+/* menu */
+.navbar{
+	background: #e0e0e0;
+	height: 100px;
+}
+.navbar-brand img{
+	margin: 0 0 0 12%;
+	width: 80%;
+}
+ .navbar-text{
+	margin: 3% 4% 0 3%;
+	font-weight: 300;
+	color: #ca3e38;
+	font: 1.4em 'Open Sans', sans-serif;
+}
+.navbar-nav li{
+	margin-top: 2%;
+}
+.navbar-nav li a{
+	font: 1.7em 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #000;
+}
+.navbar-nav a:hover{
+	background: #c8c8c8;
+}
+.navbar-nav a:after{
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #ca3e38;
+    margin: 0 auto;
+    display: block;
+}
+.dropdown-menu li a {
+  width: 70%;
+  margin: 0 auto;
+}
+/* main content */
+.top-main{
+	width: 100%;
+	height: 740px;
+	position: relative;
+	margin-top: 101px;
+	background: -webkit-radial-gradient(center ellipse, rgba(208,149,191,1) 0%, rgba(114,90,150,1) 43%, rgba(12,23,39,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(208,149,191,1) 0%, rgba(114,90,150,1) 43%, rgba(12,23,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d095bf', endColorstr='#0c1727', GradientType=1 );
+}
+.slogan p{
+	padding: 8% 0 0 8%;
+	width: 40%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 75px;
+	font-weight: 800;
+	color: #fff;
+}
+.slogan p:before{
+	content: 'Toyota';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 75px;
+	font-weight: 800;
+	color: #fe372f;
+	padding-right: 3%;
+}
+.text{
+	width: 72%;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	     column-gap: 1em;
+	-webkit-column-width: 160px;
+	-moz-column-width: 160px;
+	     column-width: 160px;
+	padding-top: 10%;
+	margin: 0 auto;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	     column-count: 2;
+	vertical-align: middle;
+}
+.text h4{
+	width: 90%;
+	font: 1.4em 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #840d0b;
+}
+.text h5{
+	width: 90%;
+	font: 1.2em 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #840d0b;
+	margin: 0 auto;
+}
+.text li{
+	width: 100%;
+	color: #fff;
+	font: 1em 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-bottom: 5%;
+}
+.panel{
+	width: 25%;
+	height: 15%;
+	position: absolute;
+	top: 18%;
+	right: 0;
+	background: #ba95ab;
+	border-radius: 6px 0 0 6px;
+	border: 1px solid #fff;
+}
+.panel p{
+	margin: 0 0 2% 6%;
+	font: 1.2em 'Open Sans', sans-serif; 
+	font-weight: 800;
+}
+.panel a{
+	margin-left: 6%;
+}
+.panel a img{
+  	padding: 0 0 2% 0;
+}
+.panel p img{
+	padding-right: 2%;
+}
+/* slider */
+.first-slide h2{
+	position: absolute;
+	top: 70%;
+	right: 70%;
+	color: #25353f;
+	font-weight: 800;
+	font: 25px 'Open Sans', sans-serif;
+}
+.first-slide h2:before{
+	content: 'Toyota';
+	font: 25px 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #ff1620;
+}
+.second-slide h2{
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	font: 25px 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #25353f;
+}
+.second-slide h2:before{
+	content: 'Toyota';
+	font: 25px 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #ff1620;
+}
+/* bottom part of main content */
+.bottom-main{
+	height: 420px;
+	background: #fff;
+}
+.left h3{
+	font: 2em 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fe372f;
+	padding: 5% 0 0 53%;
+}
+.btn{
+	background: #fe4c45;
+	font: 1.2em 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 2% 31%;
+}
+.left form{
+	margin: 0 auto;
+}
+.left{
+	margin: 0 auto;
+}
+.radio{
+	display: inline-block;
+}
+.right{
+	margin: 2% 0 0 10%;
+}
+.right h3{
+	margin-bottom: 7%;
+	font: 2em 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fe372f;
+}
+/* small gallery */
+.gallery img{
+	  width: 100%;
+	  height: 160px;
+	  position: relative;
+}
+.gallery:before {
+  display: block;
+}
+.gallery h4{
+	position: absolute;
+	top: 4%;
+	right: 0%;
+	width: 50%;
+	color: #666;
+}
+.gallery h4 > i{
+	color: #fe372f;
+}
+.flickity-prev-next-button {
+  display: none;
+}
+/* footer */
+footer{
+	height: 70px;
+	background: #000;
+}
+footer p{
+	float: left;
+	font: 1em 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	margin: 2% 0 0 8%;
+}
+footer a{
+	color: #fe372f;
+}
+.text-right{
+	 float: right;
+	 color: #fff;
+	 text-decoration: underline;
+	 margin: 2% 8% 0 0;
+}
